@@ -41,7 +41,6 @@ def playerchoices():
 
 
 def AIchoices():
-#needs to block player 30% of time -- if not blocking, it's doing this: 
 	if list[4] == "e":
 		list[4] = AIpiece
 		print(gameboard())
